@@ -1,0 +1,39 @@
+{
+    "name": "node-ts-bp",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "^7.10.3",
+        "@babel/node": "^7.10.3",
+        "@babel/plugin-proposal-class-properties": "^7.10.1",
+        "@babel/plugin-proposal-object-rest-spread": "^7.10.3",
+        "@babel/preset-env": "^7.10.3",
+        "@babel/preset-typescript": "^7.10.1",
+        "@typescript-eslint/eslint-plugin": "^2.20.0",
+        "@typescript-eslint/parser": "^2.20.0",
+        "axios-mock-adapter": "^1.18.1",
+        "babel-jest": "^26.0.1",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.10.0",
+        "eslint-plugin-jest": "^23.13.2",
+        "eslint-plugin-prettier": "^3.1.2",
+        "jest": "^26.0.1",
+        "nodemon": "^2.0.4",
+        "prettier": "^1.19.1",
+        "typescript": "^3.9.5"
+    },
+    "scripts": {
+        "start": "babel-node src/index.ts --extensions '.ts' -r dotenv/config",
+        "watch": "nodemon --exec babel-node src/index.ts --extensions '.ts' -r dotenv/config",
+        "debug": "nodemon --exec babel-node src/index.ts --extensions '.ts' --inspect-brk=19731 -r dotenv/config",
+        "test:debug": "node --inspect-brk=19731 node_modules/.bin/jest -r dotenv/config",
+        "test": "node node_modules/.bin/jest -r dotenv/config",
+        "check-types": "tsc"
+    },
+    "dependencies": {
+        "@types/jest": "^26.0.0",
+        "axios": "^0.19.2",
+        "dotenv": "^8.2.0"
+    }
+}

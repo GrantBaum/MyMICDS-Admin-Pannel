@@ -1,0 +1,1 @@
+A fresh repository for a new MyMICDS Admin Pannel, implemented in TypeScript and Node.js!
