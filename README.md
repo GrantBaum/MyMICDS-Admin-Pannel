@@ -1,1 +1,1 @@
-A fresh new repository for a MyMICDS Admin Pannel, implemented in TypeScript and Node.js
+A fresh new repository for a MyMICDS Admin Pannel, implemented in TypeScript and Node.js. I would appreciate if you made pull requests and dont just put everything in master, even if you have permissions. It just helps me keep track of changes. Thanks!
