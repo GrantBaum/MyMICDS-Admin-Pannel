@@ -5,5 +5,6 @@ Here are the goals for this project:
 3. Possibly make it easier to put the announcements on the site by making them editable here
 4. runtime statistics
 5. ping/speed etc.
-6. Taking over the world
-7. Other things we will think of later
+6. blacklisting certain days we know the portal is broken
+7. Taking over the world
+8. Other things we will think of later
