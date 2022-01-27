@@ -1,0 +1,21 @@
+{
+  "Admins": {
+   [
+  {
+    "uuid": "0000000000000000",
+    "name": "mgira"
+  },
+  {
+    "uuid": "0000000000000000",
+    "name": "nclifford"
+  },
+    {
+    "uuid": "0000000000000000",
+    "name": "sbaumohl"
+  },
+    {
+    "uuid": "0000000000000000",
+    "name": "gbaumstark"
+  }
+]
+}
