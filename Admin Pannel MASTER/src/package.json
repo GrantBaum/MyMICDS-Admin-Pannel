@@ -21,7 +21,7 @@
         "jest": "^26.0.1",
         "nodemon": "^2.0.4",
         "prettier": "^1.19.1",
-        "typescript": "^3.9.5"
+        "typescript": "^3.9.5",
             "grunt": "~0.4.5",
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-nodeunit": "~0.4.1",
