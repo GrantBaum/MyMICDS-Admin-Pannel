@@ -1,0 +1,30 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.navbar h2{
+    padding: 0px 10px;
+    text-align: left;
+    text-decoration: underline;
+
+}
+.navbar {
+	background-color: darkred;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.nav_links {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px;
+	font-weight: bold;
+}
+.nav_links:hover {
+	color: black;
+	background-color: white;
+}
