@@ -1,4 +1,3 @@
-
 {
     "compilerOptions": {
         // Target latest version of ECMAScript.
@@ -14,5 +13,5 @@
         // Import non-ES modules as default imports.
         "esModuleInterop": true
     },
-    "include": ["src"]
+    "include": ["Admin Pannel MASTER"]
 }
