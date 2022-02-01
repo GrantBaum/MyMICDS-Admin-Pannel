@@ -87,7 +87,7 @@ html {
   main section form input[type="text"] {
     margin-top: 10px;
     background: var(--text-input-background-color);
-    color: darkred;
+    color: black;
     font-weight: 600;
   }
   
