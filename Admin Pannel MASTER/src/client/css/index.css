@@ -41,6 +41,25 @@
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
+.restart {
+	padding: 10px 20px;
+    background-color: darkred;
+    border: 0px;
+    color: #fff;
+	font-size: 150px;
+	margin: 0;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.restart:hover
+{
+	background-color: #fff;
+    border: 1px solid darkred;
+    color: darkred;
+}
 .shutdown:hover
 {
 	background-color: #fff;
