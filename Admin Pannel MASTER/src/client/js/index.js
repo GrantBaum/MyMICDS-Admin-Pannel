@@ -8,4 +8,3 @@ function ShutdownAlert() {
     function RestartAlert() {
         alert("This will reactivate manually reactivate MyMICDS. Are you sure you want to continue?")
     };
-   
