@@ -78,3 +78,24 @@ input[type=text], select, textarea {
 	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
+
+  .search {
+	height: 44px;
+	width: 477px;
+	line-height: 44px;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	margin-bottom: 30px;
+	font: 16px arial,sans-serif;
+	padding-left: 17px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+  }
+  .search:hover, .search:focus {
+	outline: none;
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  }
+
+

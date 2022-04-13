@@ -1,2 +1,2 @@
 //no tests yet
-console.div('TEST')
+console.log('TEST')
