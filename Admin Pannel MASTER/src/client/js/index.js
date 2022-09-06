@@ -1,4 +1,6 @@
 console.log('Test')
+//website status variable
+var WebStatus = online
 function TakeOverTheWorld() {
     location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'
 }
@@ -18,3 +20,8 @@ function ShutdownAction() {
 			const $label = $('.label');
 			const $debug = $('.debug');
 			const $password = $('.password');
+    //Making the website know that if it is off, to redirect automatically to the restart page.
+    //@todo fix this because i did it wrong.
+            if (website = offline) {
+                //redirect Shutdown.html to Restart.html
+              }
