@@ -1,4 +1,4 @@
-{
+  {
     "compilerOptions": {
       "allowSyntheticDefaultImports": true,
       "alwaysStrict": true,
@@ -35,6 +35,7 @@
       "exactOptionalPropertyTypes": true
     },
     "files": [
-      "/Admin Pannel MASTER/src/api/api.index.ts"
+      "Admin Pannel MASTER/src/api/api.index.ts"
     ]
   }
+
