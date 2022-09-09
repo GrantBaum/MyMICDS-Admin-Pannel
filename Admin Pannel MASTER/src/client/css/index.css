@@ -99,6 +99,7 @@ input[type=text], select, textarea {
   }
   .HomeHeader {
 	text-align: center;
+	text-decoration: underline;
   }
 
 
