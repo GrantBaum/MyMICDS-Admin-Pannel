@@ -62,3 +62,6 @@ typings/
 
 # TypeScript compiled files
 dist/
+
+# ussr repo ignore
+/node_modules
