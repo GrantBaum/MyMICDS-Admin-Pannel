@@ -84,14 +84,14 @@ html {
     border-radius: 3px;
   }
   
-  main section form input[type="text"] {
+  main section form input[type="text"],main section form input[type="password"] {
     margin-top: 10px;
     background: var(--text-input-background-color);
     color: black;
     font-weight: 600;
   }
-  
-  main section form input[type="text"]:focus {
+
+  main section form input[type="text"]:focus, main section form input[type="password"]:focus {
     background-color: #dedede;
   }
   
@@ -136,3 +136,9 @@ html {
     margin-right: auto;
     width: 50%;
   }
+
+  .logoutBtn{
+    position:fixed;
+    right:10px;
+    bottom:5px;
+ }

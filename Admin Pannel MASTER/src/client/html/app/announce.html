@@ -27,8 +27,11 @@
 
 <br>
 <!--When the webpage loads it runs the getExistingAnnouncement function-->
+<script src="https://unpkg.com/@reactivex/rxjs@6.2.1/dist/global/rxjs.umd.js"></script>
+<script src="https://unpkg.com/@mymicds/sdk@1.14.0/dist/umd.js"></script>
+<script src="/Admin Pannel MASTER/src/client/js/checkIsAdmin.js"></script>
+<body onload="loginCheck(), adminCheck()">
 
-<body>
 <h1 id="TopHeader">MyMICDS Announcement Maker</h1>
 	<br>
 	<br>
@@ -160,6 +163,7 @@ function Clear() {
 }
 
     </script>
+     <button class="logoutBtn" onclick="logOut()">Log Out</button>
 </body>
 
 </html>
