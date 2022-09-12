@@ -17,6 +17,11 @@ function formChanged() {
 					location.href = '/Admin Pannel MASTER/src/client/html/app/index.html'
 					console.log('Admin Confirmed')
 					}
+				if (mymicds.auth.snapshot.scopes.admin === false) {
+					logOut()
+					console.log('Admin Denied')
+					alert('You arent an admin. You have been logged out.')
+				}
 			}
 		},
 		err => {
