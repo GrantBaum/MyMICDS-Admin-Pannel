@@ -29,6 +29,9 @@ function formChanged() {
 					console.log('Admin Denied')
 					alert('You arent an admin. You have been logged out.')
 				}
+				if (data.success === false) {
+					alert('Those credentials arent correct.')
+				}
 			}
 		},
 		err => {
