@@ -24,13 +24,10 @@ function formChanged() {
 					console.log('Admin Confirmed')
 					}
 					//if they arent an admin they will be logged out
-				if (mymicds.auth.snapshot.scopes.admin === false) {
+				else {
 					console.log('Admin Denied')
-					alert('You arent an admin. You have been logged out.')
+					alert('Invalid admin credentials. You have been logged out.')
 					logOut()
-				}
-				if (data.success === false) {
-					alert('Those credentials arent correct.')
 				}
 			}
 		},
