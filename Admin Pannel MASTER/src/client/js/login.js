@@ -5,7 +5,7 @@ var userInput = document.getElementsByName("user")[0];
 var passInput = document.getElementsByName("pass")[0];
 function formChanged() {
 	//lets me know this works as it should
-    console.log('formChanged function')
+    console.log('Password Request Function Called')
 	//here are the input values we grabbed!
     var user = userInput.value
     var pass = passInput.value
@@ -25,9 +25,9 @@ function formChanged() {
 					}
 					//if they arent an admin they will be logged out
 				if (mymicds.auth.snapshot.scopes.admin === false) {
-					logOut()
 					console.log('Admin Denied')
 					alert('You arent an admin. You have been logged out.')
+					logOut()
 				}
 				if (data.success === false) {
 					alert('Those credentials arent correct.')
