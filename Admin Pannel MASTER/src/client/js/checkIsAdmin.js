@@ -21,6 +21,7 @@ function adminCheck() {
 }
 function logOut() {
 	mymicds.auth.logout().subscribe(() => {
+        alert('You have been logged out.')
 		console.log('Logged out successfully!');
         location.href = '/Admin Pannel MASTER/src/client/html/login/login.html'
 		});

@@ -26,9 +26,14 @@ function formChanged() {
 					//if they arent an admin they will be logged out
 				else {
 					console.log('Admin Denied')
-					alert('Invalid admin credentials. You have been logged out.')
+					alert('Invalid admin credentials.')
 					logOut()
 				}
+			
+			}
+			if (data.success === false) {
+				alert('That account does not exist. Please try again.')
+				console.log('Login Failed')
 			}
 		},
 		err => {
@@ -41,6 +46,7 @@ function formChanged() {
 }
 function logOut() {
 	mymicds.auth.logout().subscribe(() => {
+		alert('You have been logged out.')
 		console.log('Logged out successfully!');
 		location.href = '/Admin Pannel MASTER/src/client/html/login/login.html'
 		});
