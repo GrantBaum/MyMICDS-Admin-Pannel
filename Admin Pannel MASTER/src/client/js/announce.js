@@ -7,4 +7,10 @@ const routelink = 'https://api.mymicds.net/v3/announcements'
 function updateAnnouncement() {
     //grabbing the announcement from above
     var announcement = announcement.value
+    console.log('Added announcement: ' + announcement)
+}
+function ClearAnnouncement() {
+    //clearing the announcement
+    var announcement = ''
+    console.log('Announcement Cleared')
 }
