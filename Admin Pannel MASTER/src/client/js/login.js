@@ -32,7 +32,7 @@ function formChanged() {
 			
 			}
 			if (data.success === false) {
-				alert('That account does not exist. Please try again.')
+				alert('Invalid Username or Password. Please check your credentials and try again.')
 				console.log('Login Failed')
 			}
 		},

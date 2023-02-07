@@ -43,3 +43,8 @@ svg {
     right:10px;
     bottom:5px;
  }
+.takeovrbtn{
+    position:fixed;
+    right:20px;
+    bottom:5px;
+ }

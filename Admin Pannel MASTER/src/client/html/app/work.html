@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internet Speed</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background-color: #8a4af3;
+      font-family: "Poppins", sans-serif;
+      flex-direction: column;
+    }
+    div {
+      width: min(500px, 90%);
+      height: 160px;
+      text-align: center;
+      background-color: #b3f34a;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  </style>
+  <body>
+    <div>
+      <h1>Download Speed</h1>
+      <span style="font-size: 1.4em;"><span></span> mb/s</span>
+      <small>Page Refresh Rate 0.2s</small>
+    </div>
+    <script>
+        setInterval(() => {
+  document.querySelector("div > span > span").innerHTML =
+    navigator.connection.downlink;
+}, 200);
+console.log("");
+    </script>
+  </body>
+</html>

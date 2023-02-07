@@ -12,6 +12,7 @@
   <script src="https://unpkg.com/@reactivex/rxjs@6.2.1/dist/global/rxjs.umd.js"></script>
   <script src="https://unpkg.com/@mymicds/sdk@1.14.0/dist/umd.js"></script>
   <script src="/Admin Pannel MASTER/src/client/js/checkIsAdmin.js"></script>
+  <script src="/Admin Pannel MASTER/src/client/js/index.js"></script>
   <body onload="loginCheck(), adminCheck()">
 
       <!--SCRIPT SOURCING-->
@@ -36,7 +37,7 @@
       <br>
       <h1 class="HomeHeader">Welcome, Admin!</h1>
       <!--@todo, make this so it displays the admins name after loggin in. Not needed but i think it would be pretty clean-->
-
+        <button class="takeovrbtn" onclick="TakeOverTheWorld()"></button>
          <button class="logoutBtn" onclick="logOut()">Log Out</button>
       </body>
     </html>
