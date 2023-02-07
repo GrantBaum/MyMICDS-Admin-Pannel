@@ -8,3 +8,7 @@ Here are the goals for this project:
 6. blacklisting certain days we know the portal is broken
 7. Taking over the world
 8. Other things we will think of later
+
+#####I want this webiste to be really passive agressive. If you have any ideas on how to enhance that, please let me know.
+
+AUTHOR: @GrantBaum on Github
