@@ -9,6 +9,6 @@ Here are the goals for this project:
 7. Taking over the world
 8. Other things we will think of later
 
-#####I want this webiste to be really passive agressive. If you have any ideas on how to enhance that, please let me know.
+I want this webiste to be really passive agressive. If you have any ideas on how to enhance that, please let me know.
 
 AUTHOR: @GrantBaum on Github
